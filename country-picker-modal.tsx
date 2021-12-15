@@ -22,6 +22,7 @@ export default function CountryPickerModal(props: {
             <CountryPicker
                 {...{countryCode, onSelect,}}
                 visible={false}
+                withAlphaFilter={true}
                 withFilter={true}
                 withModal={false}
                 onClose={() => {
